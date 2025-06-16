@@ -32,7 +32,7 @@ This Agile plan outlines the development roadmap for the Inventory App, a cross-
 
 ## Team Structure
 
-- **Frontend Developers (2)**: Specialize in Vue.js and web accessibility; now using custom PostCSS styles.
+- **Frontend Developers (2)**: Specialize in Vue.js and web accessibility; now using custom PostCSS styles instead of TailwindCSS.
 - **Backend Developers (2)**: Focus on Express.js, MongoDB, and API integrations (WebSockets, IoT).
 - **Swift iOS Developers (2)**: Develop native iOS app with SwiftUI, handle iOS-specific features (e.g., Core Data, AVFoundation).
 - **Android Developers (2)**: Develop native Android app with Jetpack Compose, handle Android-specific features (e.g., CameraX).
@@ -217,14 +217,14 @@ Each sprint lasts 14 project days, with tasks broken down into sub-tasks, estima
 - **Tasks**:
   - **Task 1: Create HomePage.vue and ItemList.vue (2 points, 16 hours, Frontend)**
     - Set up Vue Router and HomePage.vue (6 hours).
-    - Implement ItemList.vue with ItemCard.vue using custom PostCSS styles (6 hours).
+    - Implement ItemList.vue with ItemCard.vue using custom PostCSS styles instead of TailwindCSS (6 hours).
     - Write Vitest unit tests (4 hours).
   - **Task 2: Implement AddItemModal.vue (2 points, 16 hours, Frontend)**
-    - Create modal with form using custom PostCSS styles (6 hours).
+    - Create modal with form using custom PostCSS styles instead of TailwindCSS (6 hours).
     - Integrate POST /api/server via Axios (6 hours).
     - Write Cypress E2E tests (4 hours).
   - **Task 3: Implement EditItemModal.vue (2 points, 16 hours, Frontend)**
-    - Create modal with pre-filled form using custom PostCSS styles (6 hours).
+    - Create modal with pre-filled form using custom PostCSS styles instead of TailwindCSS (6 hours).
     - Integrate GET/PUT /api/server/:id (6 hours).
     - Write E2E tests (4 hours).
   - **Task 4: Add delete functionality (1 point, 8 hours, Frontend)**

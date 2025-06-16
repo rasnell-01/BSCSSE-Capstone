@@ -15,7 +15,7 @@ The Inventory App is a cross-platform application designed as a reusable templat
 
 ### Project Context
 - **Date**: May 26, 2025 (Sprint 2 completed, Day 28 of 181 project days).
-- **Styling Update**: The web frontend has transitioned from TailwindCSS to custom PostCSS styles.
+- **Styling Update**: The web frontend has transitioned from TailwindCSS to custom PostCSS styles (post-Sprint 2).
 - **Navigation Update**: The web frontend uses a single route (`/`) with modals for Add/Edit/View actions, not separate routes as initially planned.
 
 ### Notes
@@ -510,7 +510,7 @@ graph TD
 - This DFD provides a high-level view of data movement, complementing the **Sequence Diagrams** (Part 4) for specific use cases.
 - Future enhancements like offline support (Part 10, Section 10.3) will extend the DFD with local storage flows.
 
-# Inventory App Design Document - Part 10: Enhancements
+# Inventory App Design Document - Part 10.1: Enhanced User Authentication and Authorization
 
 ## 10.1 Enhanced User Authentication and Authorization
 
